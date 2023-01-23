@@ -27,7 +27,7 @@
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
       <section class="projects">
-       <div class="content-wrap">
+       <div class="content-wrap divider">
         <h2>Featured Projects</h2>
         <p>All of my projects can be found at <a class="btn" href="http://github.com/d-stolarski">here on my Github account</a>.</p>
         <img src="images/thumbnail-1.jpg" alt="Panda photo">
@@ -62,17 +62,18 @@
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class="work-experience">
-       <div class="content-wrap">
+       <div class="content-wrap item-details divider">
         <h2>Work Experience</h2>
         <img src="images/thumbnail-3.jpg">
         <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
 
         <!-- Copy this whole <section> block to add more jobs. -->
-        <section>
-          <h3>Job title</h3>
+        <section class="job-item">
+         <div class="job-details">
+          <h3>Job 1</h3>
           <p>Company Name</p>
-          <p>Date at job</p>
-          <p>Job summary goes here. Add as many paragraphs as you need.</p>
+          <p>Date at job</p></div>
+          <div class="job-summary"><p>Job summary goes here. Add as many paragraphs as you need.</p>
           <p>Optional list:</p>
           <ul>
             <li>Delete this list if you don't need it.</li>
@@ -81,6 +82,25 @@
             <li>Responsible for...</li>
             <li>Sample</li>
           </ul>
+				 </div>
+        </section>
+        <!-- End of Job block. -->
+        <section class="job-item">
+         <div class="job-details"> 
+          <h3>Job 2</h3>
+          <p>Company Name</p>
+          <p>Date at job</p></div>
+         <div class="job-summary">
+         <p>Job summary goes here. Add as many paragraphs as you need.</p>
+          <p>Optional list:</p>
+          <ul>
+            <li>Delete this list if you don't need it.</li>
+            <li>Created...</li>
+            <li>Lead...</li>
+            <li>Responsible for...</li>
+            <li>Sample</li>
+          </ul>
+				 </div>
         </section>
         <!-- End of Job block. -->
         </div>
@@ -88,9 +108,8 @@
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
       <section class="education">
-       <div class="content-wrap">
+       <div class="content-wrap item-details">
         <h2>Education</h2>
-        <img src="images/thumbnail-3.jpg">
         <!-- Copy this whole <section> block to add more schools. -->
         <section>
           <h3>JavaStart - Bootcamp</h3>
